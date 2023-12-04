@@ -10,7 +10,6 @@ def Login():
 def ToDo():
     return render_template("index.html")
 
-
 @app.route("/hello")
 def Hello():
     return "Hello World"
