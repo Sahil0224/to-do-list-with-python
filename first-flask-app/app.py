@@ -9,8 +9,10 @@ def Login():
 @app.route("/todo")
 def ToDo():
     return render_template("index.html")
+
+
 @app.route("/hello")
-def NewRoute():
+def Hello():
     return "Hello World"
 
 @app.route('/html')

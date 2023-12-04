@@ -38,7 +38,7 @@ label[for="username"], label[for="password"] {
     background: linear-gradient(to right, #bed0d3, #c3aa3a);
   }
  
-  .dark_mode h3, label[for='new-task'] {
+  .dark_mode h3, label[for="new-task"] {
         color: #ffffff;
         font-weight: 700;
         font-size: 15px;
@@ -47,7 +47,7 @@ label[for="username"], label[for="password"] {
         margin: 0;
         text-transform: uppercase;
 }
- 
+
 .dark_mode #completed-tasks label {
     color: #ffda08;
 }
