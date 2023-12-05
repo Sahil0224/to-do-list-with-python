@@ -224,7 +224,7 @@ ul li.editMode label {
     display: none;
 }
  
-#clear {
+#clear, #dark_mode {
     font-size: 15px;
     float: right;
     text-align: center;
