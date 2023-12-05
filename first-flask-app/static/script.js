@@ -3,7 +3,6 @@ let addButton = document.getElementById("addButton");
 let incompleteTasks = document.getElementById("incomplete-tasks");
 let completedTasks = document.getElementById("completed-tasks");
 let clearButton = document.getElementById("clear");
-let dark_mode_button = document.getElementById("dark_mode");
  
 let createNewTask = function (taskName) {
     let listItem = document.createElement("li");
