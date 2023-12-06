@@ -6,10 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list</title>
     <link rel="stylesheet" href="static/style.css">
+
+    <!-- <script>
+        async function populateExcelSheetData() {
+            try {
+                document.getElementById('data-items').innerHTML = 'Loading Data...'
+
+                const data = await fetch('static', {
+                    method: 'GET',
+                    mode: 'cors'
+                }).then(res => res.json());
+
+                document.getElementById('data-items').innerHTML = JSON.stringify(data, null, 2);
+            } catch (e) {
+                alert('There was error');
+            }
+        }
+    </script> -->
 </head>
  
 <body>
- 
+    
     <div class="container">
         <div class="section1">
             <h1 id="title">TO DO LIST</h1>
@@ -38,6 +55,11 @@
             <button id="dark_mode">
                 <p>
                     Toggle dark mode
+                </p>
+            </button>
+            <button id="data-items" onclick="populateExcelSheetData()">
+                <p>
+                    Upload
                 </p>
             </button>
         </div>
